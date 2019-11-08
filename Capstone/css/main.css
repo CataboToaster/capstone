@@ -1,0 +1,318 @@
+html{
+    font-size: 100%;
+    
+}
+
+body{
+    background-color: #ffde9c !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+
+* {box-sizing: border-box;
+}
+
+header{
+    width: 100vw;
+    background-color: #9DDCDD;
+    background-image: url(../img/b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/*color: #ffde9c;
+    background-color: #ffde9c;*/
+
+#myAvatar{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    padding: 5%;
+}
+
+#jumbo_text{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #FFE9A8;
+    padding-bottom: 3%;
+    color: #542615;
+}
+
+header h1{
+    padding-top: 2%;
+    text-decoration: underline;
+}
+header p{
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+h2{
+    display: block;
+    clear: right;
+    text-align: center;
+    color: #1A182B; 
+}
+
+h3{
+    text-align: center;
+}
+p{
+    text-align: left;
+}
+
+
+nav{
+    padding: 0%;
+}
+
+#icon{
+    width: 100%;
+    max-height: 120px;
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #542615 !important;
+}
+
+h2{
+    color: #542615 !important;
+}
+
+#sec_intro{
+    background-color: #ffde9c !important;
+    padding: 2%;
+}
+
+#sec_intro p{
+    padding-bottom: 2%;
+    font-style: italic;
+    
+}
+
+
+#sec_game{
+    background-color: #FFE9A8 !important;
+    position: relative;
+}
+
+#sec_game h2, h3{
+    padding: 2%;
+}
+
+#sec_game p{
+    padding-bottom: 2%;
+    font-style: italic;
+}
+
+#sec_what{
+    background-color: #ffde9c !important;
+}
+
+#sec_what h2{
+    padding: 2%;
+}
+
+#sec_what p{
+    font-style: italic;
+}
+
+#icon{
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    margin-bottom: 5%;
+}
+
+#sec_game #toggler{
+    position: absolute;
+    top: 30%;
+    right: 0;
+}
+
+#sec_game #toggle_label{
+    top: 30%;
+    text-decoration: none;
+    visibility: hidden;
+}
+
+
+footer{
+    background-color: #FFE9A8 !important;
+    padding-top: 3%;
+}
+footer p{
+    margin-left: 10px;
+    padding-top: 0%;
+    text-align: left;
+}
+
+.img_stock{
+    display: block;
+    margin: 0 auto;
+    max-height: 200px;
+    max-width: 200px;
+}
+
+#fbox{
+    flex: 1;
+}
+
+/* i pad playout*/
+@media only screen and (min-width: 540px){
+    
+
+    
+    header{
+        background-image: none;
+        background-color: #FFE9A8;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        border-bottom: solid #542615;
+    }
+    
+    #myAvatar{
+        display: inline-block;
+        border: solid #542615;
+        width: 30%;
+        padding: 0%;
+        margin: 2%;
+        margin-bottom: 6%;
+        margin-left: 4%;
+    }
+    
+    
+    #jumbo_text{
+        display: inline-block;
+        margin: 0 auto;
+        border: transparent;
+        margin: 4%;
+        margin-bottom: 0%;
+        padding: 4% ;
+        background-color: #FFE9A8;
+    }
+    
+    #jumbo_text h1{
+        text-align: justify;
+        margin: 0 auto;
+        
+    }
+    
+    #jumbo_text p{
+        text-align: justify;
+        margin: 0 auto;
+    }
+    
+    #intro p{
+        text-align: justify;
+    }
+    
+    #sec_intro{
+        display: block;
+        margin-top: 2%;
+        text-align: left;
+        clear: both;
+    }
+    
+    #sec_game{
+        border: solid #542615;
+        margin-top: 1%;
+    }
+    
+    #sec_game h3{
+        font-size: 120%;
+    }
+    
+    #sec_game p{
+        text-align: left;
+        font-size: 120%;
+    }
+    
+    .img_stock{
+        height: 200px;
+        width: 200px;
+
+    }
+    
+    #sec_what{
+        margin-top: 2%;
+    }
+    
+    
+    #sec_what p{
+        margin-top: 0.5rem;
+        text-align: left; 
+    }
+    
+    #icon{
+        max-height: 250px;
+        border: transparent;
+        margin-bottom: 1%;
+    }
+    
+    footer{
+    background-color: #FFE9A8 !important;
+    padding-top: 3%;
+    }
+    
+    footer p{
+        padding-top: 0%;
+        text-align: left;
+    }
+    
+    #sec_game #toggle_label{
+    top: 30%;
+    text-decoration: none;
+    visibility: visible;
+    }
+    
+}
+/*big screen playout */
+@media only screen and (min-width: 1000px){
+    
+    #myAvatar{
+        display: inline-block;
+        border: solid #542615;
+        width: 20%;
+        padding: 0%;
+        margin: 2%;
+        margin-bottom: 4%;   
+        margin-left: 4%;
+    }
+    
+    
+    #jumbo_text{
+        display: inline-block;
+        margin: 0 auto;
+        border: transparent;
+        margin: 4%;
+        margin-bottom: 0%;
+        padding: 2% ;
+        background-color: #FFE9A8;
+    }
+    
+    #jumbo_text h1{
+        text-align: justify;
+        margin: 0 auto;
+        
+        
+    }
+    
+    #jumbo_text p{
+        text-align: justify;
+        margin: 0 auto;
+        
+
+    }
+    
+    
+    
+}

@@ -1,0 +1,141 @@
+body{
+     background-color: #e0b982 !important;
+    font-family: "Roboto",Arial, Helvetica, sans-serif !important;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+* {box-sizing: border-box;
+}
+
+
+header{
+    margin-bottom: 4%;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: #FFE9A8 ;
+    padding: 1%;
+    color: #542615;
+    
+}
+
+
+/* Two ways to center an element*/
+/*Using text align*/
+/*
+.container{
+    display: block;
+    text-align: center;  
+    
+}
+
+.box{
+    display: block;
+}
+*/
+
+/* Using margin 0 auto */
+
+.container{
+    display: block;
+}
+
+.box{
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+    
+    
+}
+
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Roboto";
+
+}
+
+input[type=submit]{
+    box-sizing: border-box;
+    width: 100%;
+    background-color: #de9250; 
+    color: #6e5347;
+    font-family: "Roboto";
+}
+
+input[type=submit]:hover{
+    background-color: #6e5347;
+    color: #f7dc6f;
+    
+}
+
+input[type=submit]:focus{
+    background-color: #6e5347;
+    color: #f7dc6f;
+    
+}
+
+
+
+#contact{
+    text-align: center;
+    background-color: #FFE9A8;
+    padding: 4%;
+    border-radius: 4%;
+}
+
+#contact h2{
+    color: #542615;
+}
+
+
+
+/*sticky footer*/
+
+footer{
+    background-color: #FFE9A8;
+    margin-top: auto;
+    padding-top: 2%;
+    line-height: 50px;
+    /*
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    */
+    
+    
+}
+/*
+#box{
+    min-height: 100vh;
+    margin-bottom: 75px;
+}
+
+#box:after{
+    content: "";
+    display: block;
+    height: 75px;
+}
+*/
+
+#fbox{
+    flex: 1;
+}
+
+footer p{
+    margin-left: 10px;
+}
+
